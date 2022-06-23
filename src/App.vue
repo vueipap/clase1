@@ -1,12 +1,22 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
+      <div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
     </nav>
     <router-view />
   </div>
 </template>
+
+<script>
+export default {
+
+}
+</script>
+
 
 <style>
 #app {
